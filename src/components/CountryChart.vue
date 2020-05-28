@@ -13,7 +13,7 @@
 import Chart from 'chart.js';
 import axios from 'axios';
 import { find as _find, zipWith as _zipWith } from 'lodash';
-import { parse as parseCSV } from 'csv-es';
+import { parse as parseCSV } from '@vanillaes/csv';
 import { perDayChartOptions, getTSData, addDataSet } from '../perDayChartData.js'
 
 let chartInstance;

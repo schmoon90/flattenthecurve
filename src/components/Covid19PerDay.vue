@@ -15,7 +15,7 @@
 
 <script>
 import axios from 'axios';
-import { parse as parseCSV } from 'csv-es';
+import { parse as parseCSV } from '@vanillaes/csv';
 import CountryChart from './CountryChart.vue';
 import { addDataSet, getCountries } from '../perDayChartData.js'
 
